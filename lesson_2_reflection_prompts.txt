@@ -5,6 +5,10 @@ there is no commit, and there are untracked files when you do not commit. use gi
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+staging area is storage of tempted committed files, whereas working directory store files that is 
+on the hard drive. Repository stores all the files that has ever been committed.
+This type of configuration offers flexibility.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 
