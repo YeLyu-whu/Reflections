@@ -1,27 +1,40 @@
-What happens when you initialize a repository? Why do you need to do it?
+1)What happens when you initialize a repository? Why do you need to do it?
 
 there is no commit, and there are untracked files when you do not commit. use git status to view.
 
-How is the staging area different from the working directory and the repository?
+2)How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
 staging area is storage of tempted committed files, whereas working directory store files that is 
 on the hard drive. Repository stores all the files that has ever been committed.
 This type of configuration offers flexibility.
 
-How can you use the staging area to make sure you have one commit per logical
+3)How can you use the staging area to make sure you have one commit per logical
 change?
 
 You can compare the staging area with the most recent commit in repository.If there is already a 
 logical change, then commit. Ahaha.
 
-What are some situations when branches would be helpful in keeping your history
+4)What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
+branches can be used for multiple version of files, or for fixing a bug or adding a feature.
+Every part is clean and won't interleaved with other functions.
 
-What is the result of merging two branches together? Why do we represent it in
+5)How do the diagrams help you visualize the branch structure?
+
+You can see all the parents of each commit, and all the branches you have in your repository.
+
+6)What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git鈥檚 automatic merging vs. always doing merges
+A merge node will be created, all the features of the two branches will be kept.The merge node
+is able to track all the previous nodes in both of the branches.
+The representation is quite intuitive, and helps us to view the structure clearly.
+
+7)What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+sometimes,for most of the files, you do not have file conflicts there,simply adding or deleting 
+is easy, so git automatic merging can help reduce our time consumed.
+
