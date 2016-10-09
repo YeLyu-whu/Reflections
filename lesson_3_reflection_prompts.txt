@@ -34,4 +34,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    If I do not want to contaminate my work in master branch, I will branch.
+    If I work directly on master, I can update my work immediate, but, it is
+    very difficult to roll back.
